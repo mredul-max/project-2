@@ -1,0 +1,135 @@
+.nav-bar{
+   list-style: none;
+     display: flex;
+     justify-content: end ;
+     padding: 30px;
+   
+      gap: 40px;
+    
+}
+ .name{
+    color: orange;
+ }
+ .para-1{
+    font-size: small;
+ }
+ .btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+ }
+.bg-1{
+    flex: 1;
+   background-image:url('shapes/Group 33080.png');
+    height: 350px; 
+    width: 100%;
+     background-repeat: no-repeat; 
+  background-position: top left , bottom right;
+   background-size: contain;
+}
+.name-centar{
+    font-size: 30px;
+    flex: 1;
+}
+.bannar-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 50px;
+    gap: 80px;
+}
+
+
+.bg-2 {
+    flex: 1;
+    height: 300px;
+    width: 100%;
+    background-image: url('shapes/Group 33089.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}
+
+.bannar-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.about{
+  margin: 40px;
+}
+.c-img{
+    height: 150px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.full-container{
+    background-color: aliceblue;
+}
+.last-h1{
+   color: orange; 
+   
+}
+.tag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.card{
+     width: 250px;
+  text-align: left;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.last-img{
+    background-image: url('shapes/Group_33094_1.png');
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top center, bottom center ;
+    background-size: contain;
+}
+.last-container{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+}
+.s-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+   
+}
+.icons{
+    width: 20px;
+    
+
+}
+.icons-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
