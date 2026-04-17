@@ -85,9 +85,10 @@
     
 }
 .card{
+   
      width: 250px;
   text-align: left;
-  border-radius: 8px;
+  border-radius: 40px;
   padding: 20px;
   margin: 10px;
   background-color: white;
